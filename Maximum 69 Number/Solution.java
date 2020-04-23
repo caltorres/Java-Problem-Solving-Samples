@@ -55,8 +55,7 @@ class Solution {
 		int counter = 0;
 		while(n != 0) {
 			counter++;
-			n /= 10;
-			
+			n /= 10;	
 		}
 		return counter;
 	}
