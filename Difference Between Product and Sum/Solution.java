@@ -8,7 +8,7 @@ class Solution {
     
     private int findProduct(int n) {
 		int p = 1;
-		while(n > 0) {
+		while(n > 0) {z
 			p *= n % 10;
 			n = n / 10;
 		}
