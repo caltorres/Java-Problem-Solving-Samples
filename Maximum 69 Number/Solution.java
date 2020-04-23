@@ -1,12 +1,12 @@
 class Solution {
     public int maximum69Number (int num) {
-        if(num == 6) {
+		if(num == 6) {
 			return 9;
 		}
 		if(num == 9) {
 			return 9;
 		}
-        int original = num;
+        	int original = num;
 		int[] digits = new int[lengthNum(num)];
 		int t = 0;
 		int i = 0;
